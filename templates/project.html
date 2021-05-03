@@ -1,0 +1,40 @@
+{%extends 'base.html'%}
+  {% load static %}
+  {%block title%}Project{%endblock title%}
+  {%block projectsactive%}active{%endblock projectsactive%}
+  {%block body%}
+    <div class="container my-3">
+      <div class="row ">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://source.unsplash.com/user/erondu/1600x900" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://source.unsplash.com/user/erondu/1600x900" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://source.unsplash.com/user/erondu/1600x900" class="card-img-top" alt="file does not  exist">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://source.unsplash.com/user/erondu/1600x900" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {%endblock body%}
